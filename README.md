@@ -1,7 +1,6 @@
-# rocketGame
+# rokket
 
-A beautiful browser game with a rocket and meteroids.
-It will be renamed, of course.
+Make your way through a storm of meteroids in this awesome browser game.
 
 ## Get Started
 
