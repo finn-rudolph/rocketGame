@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="525" height="523" viewBox="0 0 525 523">
+  <defs>
+    <clipPath id="clip-Albiero">
+      <rect width="525" height="523"/>
+    </clipPath>
+  </defs>
+  <g id="Albiero" clip-path="url(#clip-Albiero)">
+    <line id="außen_s" data-name="außen s" y2="522.663" transform="translate(262.42)" fill="none" stroke="#d9ac5b" stroke-width="8" opacity="0.6"/>
+    <line id="außen_w" data-name="außen w" x2="522.663" transform="translate(0 262.42)" fill="none" stroke="#d9ac5b" stroke-width="8" opacity="0.6"/>
+    <line id="mitte_w" data-name="mitte w" x2="391.997" transform="translate(67.51 262.42)" fill="none" stroke="#fff189" stroke-width="8" opacity="0.6"/>
+    <line id="mitte_s" data-name="mitte s" y2="391.997" transform="translate(262.42 69.688)" fill="none" stroke="#fff189" stroke-width="8" opacity="0.6"/>
+    <line id="mitte_s-2" data-name="mitte s" y2="261.332" transform="translate(262.42 131.755)" fill="none" stroke="#ffdc7a" stroke-width="8" opacity="0.6"/>
+    <line id="mitte_w-2" data-name="mitte w" x2="261.332" transform="translate(131.755 262.42)" fill="none" stroke="#ffdc7a" stroke-width="8" opacity="0.6"/>
+    <circle id="gelb_Schein" data-name="gelb Schein" cx="45" cy="45" r="45" transform="translate(217.398 217.398)" fill="#ffdc7a" opacity="0.85"/>
+    <ellipse id="gelb_Zentrum" data-name="gelb Zentrum" cx="21.778" cy="21.778" rx="21.778" ry="21.778" transform="translate(240.643 240.643)" fill="#f5f5f5"/>
+    <line id="Linie_3" data-name="Linie 3" y2="391.997" transform="translate(327.753 6.533)" fill="none" stroke="#5683ad" stroke-width="8" opacity="0.6"/>
+    <line id="Linie_4" data-name="Linie 4" x2="391.997" transform="translate(132.843 201.443)" fill="none" stroke="#5683ad" stroke-width="8" opacity="0.6"/>
+    <line id="Linie_5" data-name="Linie 5" x2="261.332" transform="translate(197.088 201.443)" fill="none" stroke="#add7e5" stroke-width="8" opacity="0.6"/>
+    <line id="Linie_6" data-name="Linie 6" y2="261.332" transform="translate(327.753 70.777)" fill="none" stroke="#add7e5" stroke-width="8" opacity="0.6"/>
+    <line id="Linie_7" data-name="Linie 7" y2="130.666" transform="translate(327.753 136.11)" fill="none" stroke="#add7e5" stroke-width="8" opacity="0.6"/>
+    <line id="Linie_8" data-name="Linie 8" x2="130.666" transform="translate(262.42 201.443)" fill="none" stroke="#add7e5" stroke-width="8" opacity="0.6"/>
+    <circle id="blau_Schein" data-name="blau Schein" cx="25" cy="25" r="25" transform="translate(302.976 176.665)" fill="#5e96e2" opacity="0.85"/>
+    <ellipse id="blau_Zentrum" data-name="blau Zentrum" cx="10.889" cy="10.889" rx="10.889" ry="10.889" transform="translate(316.865 190.554)" fill="#fff"/>
+  </g>
+</svg>

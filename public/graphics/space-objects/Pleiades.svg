@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1299" height="766" viewBox="0 0 1299 766">
+  <defs>
+    <clipPath id="clip-Pleiades">
+      <rect width="1299" height="766"/>
+    </clipPath>
+  </defs>
+  <g id="Pleiades" clip-path="url(#clip-Pleiades)">
+    <line id="senkrecht_außen" data-name="senkrecht außen" y2="239" transform="translate(539 359)" fill="none" stroke="#4890d8" stroke-width="8" opacity="0.8"/>
+    <line id="senkrecht_mitte" data-name="senkrecht mitte" y2="168" transform="translate(539 395)" fill="none" stroke="#6bb3ed" stroke-width="8" opacity="0.8"/>
+    <line id="senkrecht_innen" data-name="senkrecht innen" y2="97" transform="translate(539 431)" fill="none" stroke="#72c8e1" stroke-width="8" opacity="0.8"/>
+    <line id="waaggerecht_außen" data-name="waaggerecht außen" x2="239" transform="translate(421 480)" fill="none" stroke="#4890d8" stroke-width="8" opacity="0.8"/>
+    <line id="waaggerecht_mitte" data-name="waaggerecht mitte" x2="165" transform="translate(458 480)" fill="none" stroke="#6bb3ed" stroke-width="8" opacity="0.8"/>
+    <line id="waaggerecht_innen" data-name="waaggerecht innen" x2="96" transform="translate(492 480)" fill="none" stroke="#72c8e1" stroke-width="8" opacity="0.8"/>
+    <circle id="schein" cx="24.5" cy="24.5" r="24.5" transform="translate(516 455)" fill="#72c8e1" opacity="0.8"/>
+    <ellipse id="zentrum" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(528 467)" fill="#fff"/>
+    <line id="senkrecht_außen-2" data-name="senkrecht außen" y2="208" transform="translate(105 429)" fill="none" stroke="#4890d8" stroke-width="8" opacity="0.8"/>
+    <line id="senkrecht_mitte-2" data-name="senkrecht mitte" y2="146" transform="translate(105 461)" fill="none" stroke="#6bb3ed" stroke-width="8" opacity="0.8"/>
+    <line id="senkrecht_innen-2" data-name="senkrecht innen" y2="84" transform="translate(105 492)" fill="none" stroke="#72c8e1" stroke-width="8" opacity="0.8"/>
+    <line id="waaggerecht_außen-2" data-name="waaggerecht außen" x2="209" transform="translate(0 534)" fill="none" stroke="#4890d8" stroke-width="8" opacity="0.8"/>
+    <line id="waaggerecht_mitte-2" data-name="waaggerecht mitte" x2="146" transform="translate(33 534)" fill="none" stroke="#6bb3ed" stroke-width="8" opacity="0.8"/>
+    <line id="waaggerecht_innen-2" data-name="waaggerecht innen" x2="84" transform="translate(64 534)" fill="none" stroke="#72c8e1" stroke-width="8" opacity="0.8"/>
+    <ellipse id="schein-2" data-name="schein" cx="21" cy="21.5" rx="21" ry="21.5" transform="translate(84 511)" fill="#72c8e1" opacity="0.8"/>
+    <ellipse id="zentrum-2" data-name="zentrum" cx="11.5" cy="12" rx="11.5" ry="12" transform="translate(93 521)" fill="#fff"/>
+    <line id="senkrecht_außen-3" data-name="senkrecht außen" y2="210" transform="translate(838 556)" fill="none" stroke="#4890d8" stroke-width="8" opacity="0.8"/>
+    <line id="senkrecht_mitte-3" data-name="senkrecht mitte" y2="144" transform="translate(838 588)" fill="none" stroke="#6bb3ed" stroke-width="8" opacity="0.8"/>
+    <line id="senkrecht_innen-3" data-name="senkrecht innen" y2="86" transform="translate(838 616)" fill="none" stroke="#72c8e1" stroke-width="8" opacity="0.8"/>
+    <line id="waaggerecht_außen-3" data-name="waaggerecht außen" x2="210" transform="translate(732 662)" fill="none" stroke="#4890d8" stroke-width="8" opacity="0.8"/>
+    <line id="waaggerecht_mitte-3" data-name="waaggerecht mitte" x2="143" transform="translate(766 662)" fill="none" stroke="#6bb3ed" stroke-width="8" opacity="0.8"/>
+    <line id="waaggerecht_innen-3" data-name="waaggerecht innen" x2="86" transform="translate(793 662)" fill="none" stroke="#72c8e1" stroke-width="8" opacity="0.8"/>
+    <circle id="schein-3" data-name="schein" cx="22.5" cy="22.5" r="22.5" transform="translate(814 637)" fill="#72c8e1" opacity="0.8"/>
+    <circle id="zentrum-3" data-name="zentrum" cx="9.5" cy="9.5" r="9.5" transform="translate(826 650)" fill="#fff"/>
+    <line id="senkrecht_außen-4" data-name="senkrecht außen" y2="188" transform="translate(970 90)" fill="none" stroke="#4890d8" stroke-width="8" opacity="0.8"/>
+    <line id="senkrecht_mitte-4" data-name="senkrecht mitte" y2="131" transform="translate(970 119)" fill="none" stroke="#6bb3ed" stroke-width="8" opacity="0.8"/>
+    <line id="senkrecht_innen-4" data-name="senkrecht innen" y2="76" transform="translate(970 146)" fill="none" stroke="#72c8e1" stroke-width="8" opacity="0.8"/>
+    <line id="waaggerecht_außen-4" data-name="waaggerecht außen" x2="187" transform="translate(876 184)" fill="none" stroke="#4890d8" stroke-width="8" opacity="0.8"/>
+    <line id="waaggerecht_mitte-4" data-name="waaggerecht mitte" x2="130" transform="translate(905 184)" fill="none" stroke="#6bb3ed" stroke-width="8" opacity="0.8"/>
+    <line id="waaggerecht_innen-4" data-name="waaggerecht innen" x2="78" transform="translate(931 184)" fill="none" stroke="#72c8e1" stroke-width="8" opacity="0.8"/>
+    <ellipse id="schein-4" data-name="schein" cx="20.5" cy="19.5" rx="20.5" ry="19.5" transform="translate(950 166)" fill="#72c8e1" opacity="0.8"/>
+    <ellipse id="zentrum-4" data-name="zentrum" cx="9.5" cy="9" rx="9.5" ry="9" transform="translate(961 176)" fill="#fff"/>
+    <line id="senkrecht_außen-5" data-name="senkrecht außen" y2="169" transform="translate(1213 395)" fill="none" stroke="#4890d8" stroke-width="8" opacity="0.8"/>
+    <line id="senkrecht_mitte-5" data-name="senkrecht mitte" y2="116" transform="translate(1213 421)" fill="none" stroke="#6bb3ed" stroke-width="8" opacity="0.8"/>
+    <line id="senkrecht_innen-5" data-name="senkrecht innen" y2="67" transform="translate(1213 447)" fill="none" stroke="#72c8e1" stroke-width="8" opacity="0.8"/>
+    <line id="waaggerecht_außen-5" data-name="waaggerecht außen" x2="168" transform="translate(1131 480)" fill="none" stroke="#4890d8" stroke-width="8" opacity="0.8"/>
+    <line id="waaggerecht_mitte-5" data-name="waaggerecht mitte" x2="120" transform="translate(1153 480)" fill="none" stroke="#6bb3ed" stroke-width="8" opacity="0.8"/>
+    <line id="waaggerecht_innen-5" data-name="waaggerecht innen" x2="66" transform="translate(1182 480)" fill="none" stroke="#72c8e1" stroke-width="8" opacity="0.8"/>
+    <ellipse id="schein-5" data-name="schein" cx="16.5" cy="17.5" rx="16.5" ry="17.5" transform="translate(1198 462)" fill="#72c8e1" opacity="0.8"/>
+    <circle id="zentrum-5" data-name="zentrum" cx="9.5" cy="9.5" r="9.5" transform="translate(1205 470)" fill="#fff"/>
+    <line id="senkrecht_außen-6" data-name="senkrecht außen" y2="146" transform="translate(1133)" fill="none" stroke="#4890d8" stroke-width="8" opacity="0.8"/>
+    <line id="senkrecht_mitte-6" data-name="senkrecht mitte" y2="100" transform="translate(1133 22)" fill="none" stroke="#6bb3ed" stroke-width="8" opacity="0.8"/>
+    <line id="senkrecht_innen-6" data-name="senkrecht innen" y2="63" transform="translate(1133 41)" fill="none" stroke="#72c8e1" stroke-width="8" opacity="0.8"/>
+    <line id="waaggerecht_außen-6" data-name="waaggerecht außen" x2="146" transform="translate(1059 73)" fill="none" stroke="#4890d8" stroke-width="8" opacity="0.8"/>
+    <line id="waaggerecht_mitte-6" data-name="waaggerecht mitte" x2="100" transform="translate(1082 73)" fill="none" stroke="#6bb3ed" stroke-width="8" opacity="0.8"/>
+    <line id="waaggerecht_innen-6" data-name="waaggerecht innen" x2="62" transform="translate(1101 73)" fill="none" stroke="#72c8e1" stroke-width="8" opacity="0.8"/>
+    <circle id="schein-6" data-name="schein" cx="15.5" cy="15.5" r="15.5" transform="translate(1115 56)" fill="#72c8e1" opacity="0.8"/>
+    <circle id="zentrum-6" data-name="zentrum" cx="7" cy="7" r="7" transform="translate(1124 65)" fill="#fff"/>
+    <line id="senkrecht_außen-7" data-name="senkrecht außen" y2="119" transform="translate(99 380)" fill="none" stroke="#4890d8" stroke-width="8" opacity="0.8"/>
+    <line id="senkrecht_mitte-7" data-name="senkrecht mitte" y2="84" transform="translate(99 397)" fill="none" stroke="#6bb3ed" stroke-width="8" opacity="0.8"/>
+    <line id="senkrecht_innen-7" data-name="senkrecht innen" y2="46" transform="translate(99 416)" fill="none" stroke="#72c8e1" stroke-width="8" opacity="0.8"/>
+    <line id="waaggerecht_außen-7" data-name="waaggerecht außen" x2="121" transform="translate(40 439)" fill="none" stroke="#4890d8" stroke-width="8" opacity="0.8"/>
+    <line id="waaggerecht_mitte-7" data-name="waaggerecht mitte" x2="83" transform="translate(59 439)" fill="none" stroke="#6bb3ed" stroke-width="8" opacity="0.8"/>
+    <line id="waaggerecht_innen-7" data-name="waaggerecht innen" x2="46" transform="translate(78 439)" fill="none" stroke="#72c8e1" stroke-width="8" opacity="0.8"/>
+    <ellipse id="schein-7" data-name="schein" cx="13" cy="12.5" rx="13" ry="12.5" transform="translate(87 425)" fill="#72c8e1" opacity="0.8"/>
+    <circle id="zentrum-7" data-name="zentrum" cx="6" cy="6" r="6" transform="translate(93 432)" fill="#fff"/>
+  </g>
+</svg>

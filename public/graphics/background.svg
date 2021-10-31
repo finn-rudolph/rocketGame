@@ -1,0 +1,427 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20000" height="1080" viewBox="0 0 20000 1080">
+  <defs>
+    <clipPath id="clip-Stars1">
+      <rect width="20000" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Stars1" clip-path="url(#clip-Stars1)">
+    <rect width="20000" height="1080"/>
+    <g id="Stern_5_Pixel" data-name="Stern 5 Pixel" transform="translate(422 336)">
+      <circle id="Ellipse_5" data-name="Ellipse 5" cx="2.5" cy="2.5" r="2.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel" data-name="Stern 2 Pixel" transform="translate(310 403)">
+      <circle id="Ellipse_6" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel" data-name="Stern 3 Pixel" transform="translate(321 441)">
+      <circle id="Ellipse_7" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_7_Pixel" data-name="Stern 7 Pixel" transform="translate(466 459)">
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="3.5" cy="3.5" r="3.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-2" data-name="Stern 2 Pixel" transform="translate(309 126)">
+      <circle id="Ellipse_6-2" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-2" data-name="Stern 3 Pixel" transform="translate(318 259)">
+      <circle id="Ellipse_7-2" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-3" data-name="Stern 2 Pixel" transform="translate(608 157)">
+      <circle id="Ellipse_6-3" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_7_Pixel-2" data-name="Stern 7 Pixel" transform="translate(1553 647)">
+      <circle id="Ellipse_8-2" data-name="Ellipse 8" cx="3.5" cy="3.5" r="3.5" fill="#fff"/>
+    </g>
+    <g id="Stern_5_Pixel-2" data-name="Stern 5 Pixel" transform="translate(860 745)">
+      <circle id="Ellipse_5-2" data-name="Ellipse 5" cx="2.5" cy="2.5" r="2.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-4" data-name="Stern 2 Pixel" transform="translate(189 972)">
+      <circle id="Ellipse_6-4" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-5" data-name="Stern 2 Pixel" transform="translate(98 630)">
+      <circle id="Ellipse_6-5" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-6" data-name="Stern 2 Pixel" transform="translate(723 865)">
+      <circle id="Ellipse_6-6" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-7" data-name="Stern 2 Pixel" transform="translate(1268 830)">
+      <circle id="Ellipse_6-7" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-3" data-name="Stern 3 Pixel" transform="translate(1565 246)">
+      <circle id="Ellipse_7-3" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-8" data-name="Stern 2 Pixel" transform="translate(1890 344)">
+      <circle id="Ellipse_6-8" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_5_Pixel-3" data-name="Stern 5 Pixel" transform="translate(1217 275)">
+      <circle id="Ellipse_5-3" data-name="Ellipse 5" cx="2.5" cy="2.5" r="2.5" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-4" data-name="Stern 3 Pixel" transform="translate(2130 74)">
+      <circle id="Ellipse_7-4" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-9" data-name="Stern 2 Pixel" transform="translate(1847 543)">
+      <circle id="Ellipse_6-9" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-10" data-name="Stern 2 Pixel" transform="translate(1811 442)">
+      <circle id="Ellipse_6-10" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-11" data-name="Stern 2 Pixel" transform="translate(1736 645)">
+      <circle id="Ellipse_6-11" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-12" data-name="Stern 2 Pixel" transform="translate(1312 331)">
+      <circle id="Ellipse_6-12" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_5_Pixel-4" data-name="Stern 5 Pixel" transform="translate(2967 652)">
+      <circle id="Ellipse_5-4" data-name="Ellipse 5" cx="2.5" cy="2.5" r="2.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-13" data-name="Stern 2 Pixel" transform="translate(2547 285)">
+      <circle id="Ellipse_6-13" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-14" data-name="Stern 2 Pixel" transform="translate(1984 896)">
+      <circle id="Ellipse_6-14" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_7_Pixel-3" data-name="Stern 7 Pixel" transform="translate(2417 964)">
+      <circle id="Ellipse_8-3" data-name="Ellipse 8" cx="3.5" cy="3.5" r="3.5" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-5" data-name="Stern 3 Pixel" transform="translate(2507 650)">
+      <circle id="Ellipse_7-5" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_5_Pixel-5" data-name="Stern 5 Pixel" transform="translate(4303 66)">
+      <circle id="Ellipse_5-5" data-name="Ellipse 5" cx="2.5" cy="2.5" r="2.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-15" data-name="Stern 2 Pixel" transform="translate(3313 905)">
+      <circle id="Ellipse_6-15" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-16" data-name="Stern 2 Pixel" transform="translate(3745 955)">
+      <circle id="Ellipse_6-16" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-17" data-name="Stern 2 Pixel" transform="translate(3531 951)">
+      <circle id="Ellipse_6-17" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-18" data-name="Stern 2 Pixel" transform="translate(3461 881)">
+      <circle id="Ellipse_6-18" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-19" data-name="Stern 2 Pixel" transform="translate(3636 907)">
+      <circle id="Ellipse_6-19" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-20" data-name="Stern 2 Pixel" transform="translate(3496 554)">
+      <circle id="Ellipse_6-20" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-6" data-name="Stern 3 Pixel" transform="translate(4060 399)">
+      <circle id="Ellipse_7-6" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-21" data-name="Stern 2 Pixel" transform="translate(3822 310)">
+      <circle id="Ellipse_6-21" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-22" data-name="Stern 2 Pixel" transform="translate(4037 168)">
+      <circle id="Ellipse_6-22" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-23" data-name="Stern 2 Pixel" transform="translate(4048 242)">
+      <circle id="Ellipse_6-23" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-24" data-name="Stern 2 Pixel" transform="translate(4697 170)">
+      <circle id="Ellipse_6-24" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-25" data-name="Stern 2 Pixel" transform="translate(4086 613)">
+      <circle id="Ellipse_6-25" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-7" data-name="Stern 3 Pixel" transform="translate(4794 644)">
+      <circle id="Ellipse_7-7" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_7_Pixel-4" data-name="Stern 7 Pixel" transform="translate(4430 832)">
+      <circle id="Ellipse_8-4" data-name="Ellipse 8" cx="3.5" cy="3.5" r="3.5" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-8" data-name="Stern 3 Pixel" transform="translate(5070 332)">
+      <circle id="Ellipse_7-8" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-26" data-name="Stern 2 Pixel" transform="translate(5077 48)">
+      <circle id="Ellipse_6-26" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-27" data-name="Stern 2 Pixel" transform="translate(5187 41)">
+      <circle id="Ellipse_6-27" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-28" data-name="Stern 2 Pixel" transform="translate(5096 111)">
+      <circle id="Ellipse_6-28" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_5_Pixel-6" data-name="Stern 5 Pixel" transform="translate(5827 737)">
+      <circle id="Ellipse_5-6" data-name="Ellipse 5" cx="2.5" cy="2.5" r="2.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-29" data-name="Stern 2 Pixel" transform="translate(5904 339)">
+      <circle id="Ellipse_6-29" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-30" data-name="Stern 2 Pixel" transform="translate(5436 760)">
+      <circle id="Ellipse_6-30" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-31" data-name="Stern 2 Pixel" transform="translate(5662 465)">
+      <circle id="Ellipse_6-31" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-32" data-name="Stern 2 Pixel" transform="translate(6073 32)">
+      <circle id="Ellipse_6-32" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-33" data-name="Stern 2 Pixel" transform="translate(6201 197)">
+      <circle id="Ellipse_6-33" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-34" data-name="Stern 2 Pixel" transform="translate(6686 711)">
+      <circle id="Ellipse_6-34" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-9" data-name="Stern 3 Pixel" transform="translate(6789 337)">
+      <circle id="Ellipse_7-9" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-10" data-name="Stern 3 Pixel" transform="translate(7149 48)">
+      <circle id="Ellipse_7-10" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-11" data-name="Stern 3 Pixel" transform="translate(7220 406)">
+      <circle id="Ellipse_7-11" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-12" data-name="Stern 3 Pixel" transform="translate(7699 927)">
+      <circle id="Ellipse_7-12" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_5_Pixel-7" data-name="Stern 5 Pixel" transform="translate(7292 836)">
+      <circle id="Ellipse_5-7" data-name="Ellipse 5" cx="2.5" cy="2.5" r="2.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-35" data-name="Stern 2 Pixel" transform="translate(7742 96)">
+      <circle id="Ellipse_6-35" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-36" data-name="Stern 2 Pixel" transform="translate(7400 100)">
+      <circle id="Ellipse_6-36" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-37" data-name="Stern 2 Pixel" transform="translate(8545 415)">
+      <circle id="Ellipse_6-37" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-38" data-name="Stern 2 Pixel" transform="translate(8034 378)">
+      <circle id="Ellipse_6-38" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-39" data-name="Stern 2 Pixel" transform="translate(8165 776)">
+      <circle id="Ellipse_6-39" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-40" data-name="Stern 2 Pixel" transform="translate(8309 151)">
+      <circle id="Ellipse_6-40" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-41" data-name="Stern 2 Pixel" transform="translate(8423 283)">
+      <circle id="Ellipse_6-41" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-42" data-name="Stern 2 Pixel" transform="translate(8887 102)">
+      <circle id="Ellipse_6-42" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-43" data-name="Stern 2 Pixel" transform="translate(8747 876)">
+      <circle id="Ellipse_6-43" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-44" data-name="Stern 2 Pixel" transform="translate(9148 334)">
+      <circle id="Ellipse_6-44" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_5_Pixel-8" data-name="Stern 5 Pixel" transform="translate(9552 831)">
+      <circle id="Ellipse_5-8" data-name="Ellipse 5" cx="2.5" cy="2.5" r="2.5" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-13" data-name="Stern 3 Pixel" transform="translate(9415 768)">
+      <circle id="Ellipse_7-13" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-45" data-name="Stern 2 Pixel" transform="translate(9540 516)">
+      <circle id="Ellipse_6-45" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-46" data-name="Stern 2 Pixel" transform="translate(9782 104)">
+      <circle id="Ellipse_6-46" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-47" data-name="Stern 2 Pixel" transform="translate(10341 411)">
+      <circle id="Ellipse_6-47" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-48" data-name="Stern 2 Pixel" transform="translate(9852 739)">
+      <circle id="Ellipse_6-48" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_7_Pixel-5" data-name="Stern 7 Pixel" transform="translate(10577 827)">
+      <circle id="Ellipse_8-5" data-name="Ellipse 8" cx="3.5" cy="3.5" r="3.5" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-14" data-name="Stern 3 Pixel" transform="translate(10040 1009)">
+      <circle id="Ellipse_7-14" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-49" data-name="Stern 2 Pixel" transform="translate(9951 287)">
+      <circle id="Ellipse_6-49" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-50" data-name="Stern 2 Pixel" transform="translate(10542 167)">
+      <circle id="Ellipse_6-50" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-51" data-name="Stern 2 Pixel" transform="translate(10606 186)">
+      <circle id="Ellipse_6-51" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-52" data-name="Stern 2 Pixel" transform="translate(11385 242)">
+      <circle id="Ellipse_6-52" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-15" data-name="Stern 3 Pixel" transform="translate(10905 485)">
+      <circle id="Ellipse_7-15" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-53" data-name="Stern 2 Pixel" transform="translate(10946 45)">
+      <circle id="Ellipse_6-53" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-16" data-name="Stern 3 Pixel" transform="translate(11573 804)">
+      <circle id="Ellipse_7-16" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-54" data-name="Stern 2 Pixel" transform="translate(11848 681)">
+      <circle id="Ellipse_6-54" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_7_Pixel-6" data-name="Stern 7 Pixel" transform="translate(11758 958)">
+      <circle id="Ellipse_8-6" data-name="Ellipse 8" cx="3.5" cy="3.5" r="3.5" fill="#fff"/>
+    </g>
+    <g id="Stern_5_Pixel-9" data-name="Stern 5 Pixel" transform="translate(11848 899)">
+      <circle id="Ellipse_5-9" data-name="Ellipse 5" cx="2.5" cy="2.5" r="2.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-55" data-name="Stern 2 Pixel" transform="translate(11642 309)">
+      <circle id="Ellipse_6-55" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-56" data-name="Stern 2 Pixel" transform="translate(11720 78)">
+      <circle id="Ellipse_6-56" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-57" data-name="Stern 2 Pixel" transform="translate(12579 164)">
+      <circle id="Ellipse_6-57" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-17" data-name="Stern 3 Pixel" transform="translate(12166 491)">
+      <circle id="Ellipse_7-17" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-58" data-name="Stern 2 Pixel" transform="translate(12160 111)">
+      <circle id="Ellipse_6-58" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-59" data-name="Stern 2 Pixel" transform="translate(12446 193)">
+      <circle id="Ellipse_6-59" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-60" data-name="Stern 2 Pixel" transform="translate(12624 870)">
+      <circle id="Ellipse_6-60" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-61" data-name="Stern 2 Pixel" transform="translate(13232 204)">
+      <circle id="Ellipse_6-61" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-18" data-name="Stern 3 Pixel" transform="translate(12873 506)">
+      <circle id="Ellipse_7-18" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-62" data-name="Stern 2 Pixel" transform="translate(13447 362)">
+      <circle id="Ellipse_6-62" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-63" data-name="Stern 2 Pixel" transform="translate(12768 167)">
+      <circle id="Ellipse_6-63" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-64" data-name="Stern 2 Pixel" transform="translate(12781 349)">
+      <circle id="Ellipse_6-64" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-19" data-name="Stern 3 Pixel" transform="translate(13200 492)">
+      <circle id="Ellipse_7-19" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-65" data-name="Stern 2 Pixel" transform="translate(13852 756)">
+      <circle id="Ellipse_6-65" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-66" data-name="Stern 2 Pixel" transform="translate(13852 115)">
+      <circle id="Ellipse_6-66" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-20" data-name="Stern 3 Pixel" transform="translate(13677 224)">
+      <circle id="Ellipse_7-20" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-67" data-name="Stern 2 Pixel" transform="translate(13693 970)">
+      <circle id="Ellipse_6-67" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_5_Pixel-10" data-name="Stern 5 Pixel" transform="translate(14162 945)">
+      <circle id="Ellipse_5-10" data-name="Ellipse 5" cx="2.5" cy="2.5" r="2.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-68" data-name="Stern 2 Pixel" transform="translate(14647 137)">
+      <circle id="Ellipse_6-68" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-69" data-name="Stern 2 Pixel" transform="translate(14812 486)">
+      <circle id="Ellipse_6-69" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-70" data-name="Stern 2 Pixel" transform="translate(15467 847)">
+      <circle id="Ellipse_6-70" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-71" data-name="Stern 2 Pixel" transform="translate(15370 619)">
+      <circle id="Ellipse_6-71" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-72" data-name="Stern 2 Pixel" transform="translate(15432 147)">
+      <circle id="Ellipse_6-72" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-73" data-name="Stern 2 Pixel" transform="translate(15897 356)">
+      <circle id="Ellipse_6-73" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-21" data-name="Stern 3 Pixel" transform="translate(16103 846)">
+      <circle id="Ellipse_7-21" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-74" data-name="Stern 2 Pixel" transform="translate(16288 159)">
+      <circle id="Ellipse_6-74" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-75" data-name="Stern 2 Pixel" transform="translate(16671 324)">
+      <circle id="Ellipse_6-75" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-76" data-name="Stern 2 Pixel" transform="translate(16567 449)">
+      <circle id="Ellipse_6-76" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_5_Pixel-11" data-name="Stern 5 Pixel" transform="translate(16840 978)">
+      <circle id="Ellipse_5-11" data-name="Ellipse 5" cx="2.5" cy="2.5" r="2.5" fill="#fff"/>
+    </g>
+    <g id="Stern_7_Pixel-7" data-name="Stern 7 Pixel" transform="translate(17117 152)">
+      <circle id="Ellipse_8-7" data-name="Ellipse 8" cx="3.5" cy="3.5" r="3.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-77" data-name="Stern 2 Pixel" transform="translate(16935 444)">
+      <circle id="Ellipse_6-77" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-22" data-name="Stern 3 Pixel" transform="translate(17470 313)">
+      <circle id="Ellipse_7-22" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-78" data-name="Stern 2 Pixel" transform="translate(17394 489)">
+      <circle id="Ellipse_6-78" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-79" data-name="Stern 2 Pixel" transform="translate(18092 128)">
+      <circle id="Ellipse_6-79" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-80" data-name="Stern 2 Pixel" transform="translate(18302 453)">
+      <circle id="Ellipse_6-80" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-81" data-name="Stern 2 Pixel" transform="translate(17916 1030)">
+      <circle id="Ellipse_6-81" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-82" data-name="Stern 2 Pixel" transform="translate(18747 1042)">
+      <circle id="Ellipse_6-82" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-83" data-name="Stern 2 Pixel" transform="translate(18771 99)">
+      <circle id="Ellipse_6-83" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-84" data-name="Stern 2 Pixel" transform="translate(19092 1000)">
+      <circle id="Ellipse_6-84" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-85" data-name="Stern 2 Pixel" transform="translate(18961 515)">
+      <circle id="Ellipse_6-85" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-86" data-name="Stern 2 Pixel" transform="translate(19667 820)">
+      <circle id="Ellipse_6-86" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-87" data-name="Stern 2 Pixel" transform="translate(19881 89)">
+      <circle id="Ellipse_6-87" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-23" data-name="Stern 3 Pixel" transform="translate(19294 103)">
+      <circle id="Ellipse_7-23" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_5_Pixel-12" data-name="Stern 5 Pixel" transform="translate(19562 349)">
+      <circle id="Ellipse_5-12" data-name="Ellipse 5" cx="2.5" cy="2.5" r="2.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-88" data-name="Stern 2 Pixel" transform="translate(19098 682)">
+      <circle id="Ellipse_6-88" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-24" data-name="Stern 3 Pixel" transform="translate(8286 394)">
+      <circle id="Ellipse_7-24" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_5_Pixel-13" data-name="Stern 5 Pixel" transform="translate(8906 659)">
+      <circle id="Ellipse_5-13" data-name="Ellipse 5" cx="2.5" cy="2.5" r="2.5" fill="#fff"/>
+    </g>
+    <g id="Stern_5_Pixel-14" data-name="Stern 5 Pixel" transform="translate(11176 401)">
+      <circle id="Ellipse_5-14" data-name="Ellipse 5" cx="2.5" cy="2.5" r="2.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-89" data-name="Stern 2 Pixel" transform="translate(12502 681)">
+      <circle id="Ellipse_6-89" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-90" data-name="Stern 2 Pixel" transform="translate(13980 832)">
+      <circle id="Ellipse_6-90" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-25" data-name="Stern 3 Pixel" transform="translate(14975 153)">
+      <circle id="Ellipse_7-25" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_3_Pixel-26" data-name="Stern 3 Pixel" transform="translate(16271 243)">
+      <circle id="Ellipse_7-26" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+    <g id="Stern_7_Pixel-8" data-name="Stern 7 Pixel" transform="translate(16405 354)">
+      <circle id="Ellipse_8-8" data-name="Ellipse 8" cx="3.5" cy="3.5" r="3.5" fill="#fff"/>
+    </g>
+    <g id="Stern_2_Pixel-91" data-name="Stern 2 Pixel" transform="translate(18978 315)">
+      <circle id="Ellipse_6-91" data-name="Ellipse 6" cx="1" cy="1" r="1" fill="#fff"/>
+    </g>
+  </g>
+</svg>
