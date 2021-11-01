@@ -5,8 +5,7 @@
 	"name": "rokket",
 	"description": "A beautiful browser game with a rocket and meteroids.",
 	"version": "1.0.0",
-	"main": "index.js",
-	"devDependencies": {},
+	"main": "app.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -16,7 +15,7 @@
 	},
 	"keywords": [],
 	"author": "Finn and Max Rudolph",
-	"license": "ISC",
+	"license": "GPLV3",
 	"bugs": {
 		"url": "https://github.com/finn-rudolph/rokket/issues"
 	},
