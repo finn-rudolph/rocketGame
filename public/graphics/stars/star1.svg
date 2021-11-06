@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3" height="3" viewBox="0 0 3 3">
+  <defs>
+    <clipPath id="clip-star1">
+      <rect width="3" height="3"/>
+    </clipPath>
+  </defs>
+  <g id="star1" clip-path="url(#clip-star1)">
+    <g id="Stern_3_Pixel" data-name="Stern 3 Pixel">
+      <circle id="Ellipse_7" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" fill="#fff"/>
+    </g>
+  </g>
+</svg>
