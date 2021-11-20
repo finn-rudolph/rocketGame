@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="783" height="655" viewBox="0 0 783 655">
   <defs>
-    <clipPath id="clip-HelixNebula">
+    <clipPath id="clip-space-object14">
       <rect width="783" height="655"/>
     </clipPath>
   </defs>
-  <g id="HelixNebula" clip-path="url(#clip-HelixNebula)">
+  <g id="space-object14" clip-path="url(#clip-space-object14)">
     <circle id="Ellipse_1" data-name="Ellipse 1" cx="192.5" cy="192.5" r="192.5" transform="translate(210.296 121.718)" fill="#014256" opacity="0.6"/>
     <path id="Pfad_13" data-name="Pfad 13" d="M839.688,863.988c114.371,0,167.726.792,268.362-53.884s126.2-80.623,191.7-197.107,55.53-178.495,61.869-268.829-20.074-75.543-48.6-44.375-14.263,75.279-65.506,169.047-48.865,131.276-139.464,206.026-104.069,59.166-222.931,92.976S632.605,782.106,632.605,810.1,725.317,863.988,839.688,863.988Z" transform="translate(-579.704 -209.282)" fill="#d25625" opacity="0.7"/>
     <path id="Pfad_14" data-name="Pfad 14" d="M587.438,621.775C608.3,539.629,599.588,508.461,654,418.919s42.79-94.032,151.086-155.312,128.37-69.468,244.061-79.241,251.721,3.7,218.7,40.149S1086.126,257.532,955.114,319.6s-122.031,55.2-211.309,153.2S598,711.581,598,711.581,566.571,703.921,587.438,621.775Z" transform="translate(-579.704 -181.282)" fill="#ad4f10" opacity="0.7"/>

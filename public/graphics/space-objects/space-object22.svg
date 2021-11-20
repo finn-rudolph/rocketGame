@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="499" height="498" viewBox="0 0 499 498">
   <defs>
-    <clipPath id="clip-HerculesCluster">
+    <clipPath id="clip-space-object22">
       <rect width="499" height="498"/>
     </clipPath>
   </defs>
-  <g id="HerculesCluster" clip-path="url(#clip-HerculesCluster)">
+  <g id="space-object22" clip-path="url(#clip-space-object22)">
     <circle id="Ellipse_8" data-name="Ellipse 8" cx="25" cy="25" r="25" transform="translate(244 231)" fill="#fff"/>
     <g id="_20px" data-name="20px" transform="translate(244 221)">
       <circle id="Ellipse_9" data-name="Ellipse 9" cx="10" cy="10" r="10" fill="#fff"/>

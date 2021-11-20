@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="440" height="393" viewBox="0 0 440 393">
   <defs>
-    <clipPath id="clip-NGC2451">
+    <clipPath id="clip-space-object23">
       <rect width="440" height="393"/>
     </clipPath>
   </defs>
-  <g id="NGC2451" clip-path="url(#clip-NGC2451)">
+  <g id="space-object23" clip-path="url(#clip-space-object23)">
     <line id="senkrecht_außen" data-name="senkrecht außen" y2="226" transform="translate(224 99)" fill="none" stroke="#d7760f" stroke-width="8" opacity="0.6"/>
     <line id="senkrecht_mitte" data-name="senkrecht mitte" y2="158" transform="translate(224 133)" fill="none" stroke="#f19f18" stroke-width="8" opacity="0.6"/>
     <line id="senkrecht_innen" data-name="senkrecht innen" y2="90" transform="translate(224 167)" fill="none" stroke="#f3c622" stroke-width="8" opacity="0.6"/>

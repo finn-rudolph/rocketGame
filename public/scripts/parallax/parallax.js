@@ -1,39 +1,37 @@
 // import { Container } from "@pixi/display";
 
 class ParallaxLayer extends PIXI.Container {
-	constructor(speed, height, width) {
+	constructor(speed, scale, objectType, imagesAmount, averageDisplayedObjects) {
 		super();
+		this.height = window.innerHeight;
+		this.width = window.innerWidth;
 
-		this.speed = speed;
-		this.height = height;
-		this.width = width;
+		this.textures = new Array(imagesAmount)
+			.fill(0)
+			.map((_v, i) =>
+				PIXI.Texture.from(
+					`/public/graphics/${objectType}s/${objectType}${i}.svg`,
+					{ resourceOptions: { scale: scale } }
+				)
+			);
+		console.log(this.textures);
 
 		this.move = (delta) =>
 			this.children.forEach((child) => {
 				child.x -= speed * delta;
 			});
 
-		this.generate = (
-			averageDisplayedObjects,
-			objectType, // e.g. star, meteroid
-			imagesAmount,
-			delta
-		) => {
+		this.generate = (delta) => {
 			const probability =
-				delta / (window.innerWidth / this.speed / averageDisplayedObjects);
+				delta / (this.width / speed / averageDisplayedObjects);
 			if (Math.random() <= probability) {
 				const sprite = new PIXI.Sprite(
-					PIXI.Texture.from(
-						`/public/graphics/${objectType}s/${objectType}${Math.floor(
-							Math.random() * imagesAmount
-						)}.svg`
-					)
+					this.textures[Math.floor(Math.random() * imagesAmount)]
 				);
 				sprite.position.x = window.innerWidth + sprite.width;
 				sprite.position.y = window.innerHeight * Math.random();
 				this.addChild(sprite);
 			}
-			console.log(this.children.length);
 		};
 		this.removeInvisible = () =>
 			this.children.forEach((child) => {
@@ -42,8 +40,7 @@ class ParallaxLayer extends PIXI.Container {
 	}
 }
 
-export const layer1 = new ParallaxLayer(
-	60,
-	window.innerHeight,
-	window.innerWidth
-);
+export const layers = [
+	new ParallaxLayer(60, 1, "star", 4, 25),
+	new ParallaxLayer(80, 0.05, "space-object", 44, 10)
+];

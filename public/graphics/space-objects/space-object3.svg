@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="490" height="335" viewBox="0 0 490 335">
   <defs>
-    <clipPath id="clip-TriangulumGalaxy">
+    <clipPath id="clip-space-object3">
       <rect width="490" height="335"/>
     </clipPath>
   </defs>
-  <g id="TriangulumGalaxy" clip-path="url(#clip-TriangulumGalaxy)">
+  <g id="space-object3" clip-path="url(#clip-space-object3)">
     <ellipse id="Ellipse_21" data-name="Ellipse 21" cx="56.98" cy="38.119" rx="56.98" ry="38.119" transform="matrix(0.799, -0.602, 0.602, 0.799, 143.789, 175.727)" fill="#c1b5b5"/>
     <ellipse id="Ellipse_19" data-name="Ellipse 19" cx="31.858" cy="21.619" rx="31.858" ry="21.619" transform="matrix(0.799, -0.602, 0.602, 0.799, 172.782, 173.914)" fill="#e7d7bb"/>
     <ellipse id="Ellipse_17" data-name="Ellipse 17" cx="10.5" cy="8" rx="10.5" ry="8" transform="matrix(0.799, -0.602, 0.602, 0.799, 198.086, 171.91)" fill="#fff9ef"/>

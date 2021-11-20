@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="978" height="541" viewBox="0 0 978 541">
   <defs>
-    <clipPath id="clip-WhirlpoolGalaxy">
+    <clipPath id="clip-space-object1">
       <rect width="978" height="541"/>
     </clipPath>
   </defs>
-  <g id="WhirlpoolGalaxy" clip-path="url(#clip-WhirlpoolGalaxy)">
+  <g id="space-object1" clip-path="url(#clip-space-object1)">
     <path id="Pfad_90" data-name="Pfad 90" d="M764.056,1705.843s3.914,22.778,17.99,30.815,23.695,3.373,38.311,1.333,7.371-11.285,20.155-9.495,22.279,15.324,30.982,16.657,8.162-5.83,3.831-11.327-24.861-11.577-30.149-21.987-1.249-14.741,8.995-19.655,20.03,3.29,31.981,0,17.76-16.824,17.76-16.824c-8.287-1.208-19.759,4.206-35.083-1.166s-17.49-18.239-32.981-21.487-13.326,2.457-28.983,8.495-22.529,6.5-33.647,15.658-10.827,20.988-10.827,20.988Z" transform="translate(-452.244 -1419.865)" fill="#8f6e7c"/>
     <ellipse id="Ellipse_38" data-name="Ellipse 38" cx="21.5" cy="23" rx="21.5" ry="23" transform="translate(333.756 259.135)" fill="#ceaec5"/>
     <ellipse id="Ellipse_39" data-name="Ellipse 39" cx="10.5" cy="10.5" rx="10.5" ry="10.5" transform="translate(344.756 271.135)" fill="#fefefe"/>

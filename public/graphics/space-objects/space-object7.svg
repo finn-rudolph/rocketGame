@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="711" height="764" viewBox="0 0 711 764">
   <defs>
-    <clipPath id="clip-BodesGalaxy">
+    <clipPath id="clip-space-object7">
       <rect width="711" height="764"/>
     </clipPath>
   </defs>
-  <g id="BodesGalaxy" clip-path="url(#clip-BodesGalaxy)">
+  <g id="space-object7" clip-path="url(#clip-space-object7)">
     <ellipse id="Ellipse_50" data-name="Ellipse 50" cx="181" cy="101" rx="181" ry="101" transform="matrix(0.809, -0.588, 0.588, 0.809, 179.783, 425.106)" fill="#a58c92" opacity="0.7"/>
     <ellipse id="Ellipse_48" data-name="Ellipse 48" cx="121" cy="66" rx="121" ry="66" transform="matrix(0.809, -0.588, 0.588, 0.809, 248.82, 418.23)" fill="#d0a28a" opacity="0.8"/>
     <ellipse id="Ellipse_49" data-name="Ellipse 49" cx="73" cy="31.741" rx="73" ry="31.741" transform="matrix(0.809, -0.588, 0.588, 0.809, 307.744, 417.994)" fill="#fbc5ad" opacity="0.9"/>

@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1299" height="766" viewBox="0 0 1299 766">
   <defs>
-    <clipPath id="clip-Pleiades">
+    <clipPath id="clip-space-object21">
       <rect width="1299" height="766"/>
     </clipPath>
   </defs>
-  <g id="Pleiades" clip-path="url(#clip-Pleiades)">
+  <g id="space-object21" clip-path="url(#clip-space-object21)">
     <line id="senkrecht_außen" data-name="senkrecht außen" y2="239" transform="translate(539 359)" fill="none" stroke="#4890d8" stroke-width="8" opacity="0.8"/>
     <line id="senkrecht_mitte" data-name="senkrecht mitte" y2="168" transform="translate(539 395)" fill="none" stroke="#6bb3ed" stroke-width="8" opacity="0.8"/>
     <line id="senkrecht_innen" data-name="senkrecht innen" y2="97" transform="translate(539 431)" fill="none" stroke="#72c8e1" stroke-width="8" opacity="0.8"/>

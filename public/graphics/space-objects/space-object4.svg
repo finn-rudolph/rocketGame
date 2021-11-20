@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1076" height="809" viewBox="0 0 1076 809">
   <defs>
-    <clipPath id="clip-PinwheelGalaxy">
+    <clipPath id="clip-space-object4">
       <rect width="1076" height="809"/>
     </clipPath>
   </defs>
-  <g id="PinwheelGalaxy" clip-path="url(#clip-PinwheelGalaxy)">
+  <g id="space-object4" clip-path="url(#clip-space-object4)">
     <ellipse id="Ellipse_25" data-name="Ellipse 25" cx="66" cy="65.5" rx="66" ry="65.5" transform="translate(509.996 285.019)" fill="#816b54" opacity="0.8"/>
     <circle id="Ellipse_24" data-name="Ellipse 24" cx="30" cy="30" r="30" transform="translate(546.996 327.019)" fill="#cba97e" opacity="0.9"/>
     <circle id="Ellipse_23" data-name="Ellipse 23" cx="12.5" cy="12.5" r="12.5" transform="translate(563.996 346.019)" fill="#e7e1d3"/>

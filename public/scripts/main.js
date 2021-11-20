@@ -1,5 +1,5 @@
 // import PIXI from "pixi.js";
-import { layer1 } from "./parallax/parallax.js";
+import { layers } from "./parallax/parallax.js";
 
 const app = new PIXI.Application({
 	width: window.innerWidth,
@@ -7,14 +7,16 @@ const app = new PIXI.Application({
 	antialias: true,
 	backgroundColor: 0x000000
 });
-
-app.stage.addChild(layer1);
+layers.forEach((layer) => app.stage.addChild(layer));
+console.log(layers);
 
 // game loop
 app.ticker.add(async () => {
-	layer1.generate(25, "star", 4, app.ticker.deltaMS / 1000);
-	layer1.removeInvisible();
-	layer1.move(app.ticker.deltaMS / 1000);
+	layers.forEach((layer) => {
+		layer.generate(app.ticker.deltaMS / 1000);
+		layer.removeInvisible();
+		layer.move(app.ticker.deltaMS / 1000);
+	});
 });
 
 app.renderer.view.style.position = "absolute";

@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1034" height="962" viewBox="0 0 1034 962">
   <defs>
-    <clipPath id="clip-NGC1566">
+    <clipPath id="clip-space-object11">
       <rect width="1034" height="962"/>
     </clipPath>
   </defs>
-  <g id="NGC1566" clip-path="url(#clip-NGC1566)">
+  <g id="space-object11" clip-path="url(#clip-space-object11)">
     <path id="Pfad_176" data-name="Pfad 176" d="M1365.884,13203.937c-35.993-22.757,28.795-74.077,34.368-145.831s-35.993-150.475-12.075-141.186,113.321,106.586,107.747,178.34S1401.878,13226.693,1365.884,13203.937Z" transform="translate(-5863.372 -11119.036) rotate(-25)" fill="#285570" opacity="0.7"/>
     <path id="Pfad_175" data-name="Pfad 175" d="M473.181,13580.968c-31.617,110.213-37.154,292.947-22.864,313.668s58.768-117.716,80.025-230.786,19.292-200.775,5-221.5S504.8,13470.755,473.181,13580.968Z" transform="translate(-442.863 -12935)" fill="#46699a" opacity="0.7"/>
     <circle id="Ellipse_59" data-name="Ellipse 59" cx="140.5" cy="140.5" r="140.5" transform="translate(373.137 323)" fill="#ccb199" opacity="0.9"/>

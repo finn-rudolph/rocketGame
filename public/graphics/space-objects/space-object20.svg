@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="525" height="523" viewBox="0 0 525 523">
   <defs>
-    <clipPath id="clip-Albiero">
+    <clipPath id="clip-space-object20">
       <rect width="525" height="523"/>
     </clipPath>
   </defs>
-  <g id="Albiero" clip-path="url(#clip-Albiero)">
+  <g id="space-object20" clip-path="url(#clip-space-object20)">
     <line id="außen_s" data-name="außen s" y2="522.663" transform="translate(262.42)" fill="none" stroke="#d9ac5b" stroke-width="8" opacity="0.6"/>
     <line id="außen_w" data-name="außen w" x2="522.663" transform="translate(0 262.42)" fill="none" stroke="#d9ac5b" stroke-width="8" opacity="0.6"/>
     <line id="mitte_w" data-name="mitte w" x2="391.997" transform="translate(67.51 262.42)" fill="none" stroke="#fff189" stroke-width="8" opacity="0.6"/>

@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="330" height="365" viewBox="0 0 330 365">
   <defs>
-    <clipPath id="clip-NGC7184">
+    <clipPath id="clip-space-object10">
       <rect width="330" height="365"/>
     </clipPath>
   </defs>
-  <g id="NGC7184" clip-path="url(#clip-NGC7184)">
+  <g id="space-object10" clip-path="url(#clip-space-object10)">
     <path id="Pfad_154" data-name="Pfad 154" d="M763.068,12079.231c18.755-23.042,121.1,50.907,200.77,138.61s140.932,194.161,122.177,217.2-117.533-37.332-197.2-125.035S744.313,12102.273,763.068,12079.231Z" transform="translate(-759.808 -12074.975)" fill="#676899" opacity="0.7"/>
     <path id="Pfad_152" data-name="Pfad 152" d="M849.036,12165.074c-12.03,11.208,18.121,71.96,58.051,120.085s95.9,89.086,108.907,78.436-16.943-72.913-56.874-121.038S861.067,12153.866,849.036,12165.074Z" transform="translate(-760.808 -12075.975)" fill="#ab8aa7"/>
     <path id="Pfad_150" data-name="Pfad 150" d="M882.29,12201.893c-6.585,6.342,14.878,44.392,39.675,73.823s52.6,48.293,59.188,41.951-8.049-37.887-32.846-67.318S888.875,12195.551,882.29,12201.893Z" transform="translate(-759.808 -12074.975)" fill="#93766e"/>
