@@ -1,6 +1,6 @@
 // import { Container } from "@pixi/display";
 
-class ParallaxLayer extends PIXI.Container {
+export class ParallaxLayer extends PIXI.Container {
 	constructor(speed, scale, objectType, imagesAmount, averageDisplayedObjects) {
 		super();
 		this.height = window.innerHeight;
@@ -14,8 +14,6 @@ class ParallaxLayer extends PIXI.Container {
 					{ resourceOptions: { scale: scale } }
 				)
 			);
-		console.log(this.textures);
-
 		this.move = (delta) =>
 			this.children.forEach((child) => {
 				child.x -= speed * delta;
@@ -42,5 +40,5 @@ class ParallaxLayer extends PIXI.Container {
 
 export const layers = [
 	new ParallaxLayer(60, 1, "star", 4, 25),
-	new ParallaxLayer(80, 0.05, "space-object", 44, 10)
+	new ParallaxLayer(80, 0.05, "space-object", 24, 10)
 ];
