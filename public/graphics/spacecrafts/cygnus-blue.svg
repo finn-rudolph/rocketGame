@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1595" height="557" viewBox="0 0 1595 557">
+  <defs>
+    <clipPath id="clip-cygnus-blue">
+      <rect width="1595" height="557"/>
+    </clipPath>
+  </defs>
+  <g id="cygnus-blue" clip-path="url(#clip-cygnus-blue)">
+    <path id="Spitze" d="M3490.566,535.031,3690,540.013l-199.434,4.994Z" transform="translate(-2095.63 -261.5)" fill="#30f2f2"/>
+    <path id="Flügel_hinten" data-name="Flügel hinten" d="M0,0H143V16.666H0Z" transform="translate(0.37 270.5)" fill="#30f2f2"/>
+    <path id="Flügel_hinten_-_Schatten" data-name="Flügel hinten - Schatten" d="M6076.026,553.314l142.514.026V537.531S6168.256,549.782,6076.026,553.314Z" transform="translate(-6075.63 -266.353)" opacity="0.4"/>
+    <path id="Rumpf_-_hinten" data-name="Rumpf - hinten" d="M2175.5,599.6l0-119.107c81.075-24.006,243.843-47.618,243.843-47.618C2404.23,540,2414.7,622.553,2419.153,647.2,2419.153,647.2,2256.57,623.51,2175.5,599.6Z" transform="translate(-2095.63 -261.5)" fill="#11178c"/>
+    <path id="Rumpf_-_Mitte" data-name="Rumpf - Mitte" d="M2419.34,432.879s-7.589,41.6-7.853,107.121,7.579,107.159,7.579,107.159c42.284,4.4,97.564,8.991,97.564,8.991C2689.4,669.11,2840,660,2840,660c130.83-1.2,364.488-50.731,364.488-50.731S3211,574.695,3211,540s-6.512-69.509-6.512-69.509S2970.826,421.2,2840,420c0,0-150.6-9.109-323.37,3.85C2516.63,423.85,2461.355,428.438,2419.34,432.879Z" transform="translate(-2095.63 -261.5)" fill="#233ed9"/>
+    <path id="Rumpf_-_vorne" data-name="Rumpf - vorne" d="M3204.49,470.491c180.857,37.034,286.038,64.669,286.038,64.669v9.672s-105.178,27.649-286.041,64.438c0,0,6.512-34.574,6.512-69.269S3204.49,470.491,3204.49,470.491Z" transform="translate(-2095.63 -261.5)" fill="#277ff2"/>
+    <path id="Rumpf_-_Schatten" data-name="Rumpf - Schatten" d="M2243.874,616.322S2482.036,681.732,2840,660c0,0,144.071,8.315,650.672-115.1L3690,540.01c-19.894,1.63-116.031,1.566-199.328,1.566C3490.672,541.576,2795.948,660.427,2243.874,616.322Z" transform="translate(-2095.63 -261.5)" opacity="0.4"/>
+    <circle id="Guckloch" cx="50" cy="50" r="50" transform="translate(954.37 228.5)" fill="#30f2f2"/>
+    <path id="Pfad_1" data-name="Pfad 1" d="M10148.5,480.5s422.63-65.008,799.694-49.323c0,0-263.852-33.936-555.923,1.717C10392.271,432.894,10248.874,452.733,10148.5,480.5Z" transform="translate(-10068.63 -261.5)" fill="#fff" opacity="0.2"/>
+    <path id="Guckloch_-_Schatten" data-name="Guckloch - Schatten" d="M3059.446,569.267s56.662,23.433,90.546-28.575c0,0,.759,33.8-33.572,46.5C3116.42,587.192,3083.625,600.189,3059.446,569.267Z" transform="translate(-2095.63 -261.5)" opacity="0.6"/>
+    <path id="Flügel_oben" data-name="Flügel oben" d="M2095.634,356.547l6.769,33.95,340.172-34.022,27.1,122.535c22.974,29.224,64.79-5.64,64.79-5.64L2507.509,351.5,2627.5,339.487l-9-45.047Z" transform="translate(-2095.63 -294.441)" fill="#22b7f2"/>
+    <path id="Flügel_oben_-_Schatten" data-name="Flügel oben - Schatten" d="M2469.68,446.07l-27.11-122.54L2102.4,357.56s381.35-50.8,440.881-64.44c58.964-13.514,75.209-31.62,75.209-31.62l9.01,45.05-119.99,12.01,26.96,121.87C2509.19,460.277,2483.2,464.264,2469.68,446.07Z" transform="translate(-2095.63 -261.5)" opacity="0.6"/>
+    <path id="Flügel_unten" data-name="Flügel unten" d="M2095.634,428.575l6.769-33.95,340.172,34.022,27.1-122.535c22.974-29.224,64.79,5.64,64.79,5.64L2512.17,430.7,2627.5,445.635l-9,45.047Z" transform="translate(-2095.63 65.559)" fill="#22b7f2"/>
+    <path id="Fllügel_unten_-_Schatten" data-name="Fllügel unten - Schatten" d="M6075.63,755.63l522.86,62.11,9.01-45.05C6597.686,818.472,6075.63,755.63,6075.63,755.63Z" transform="translate(-6075.63 -261.5)" opacity="0.6"/>
+  </g>
+</svg>
