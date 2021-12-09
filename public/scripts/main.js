@@ -21,6 +21,7 @@ app.ticker.add(async () => {
 		layer.move(app.ticker.deltaMS / 1000);
 	});
 	spacecraft.move(app.ticker.deltaMS / 1000);
+	spacecraft.checkBorder();
 });
 
 app.renderer.view.style.position = "absolute";

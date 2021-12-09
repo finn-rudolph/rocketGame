@@ -18,12 +18,6 @@ export class Spacecraft extends PIXI.Sprite {
 		};
 
 		this.move = (delta) => {
-			console.log(
-				this.speed.x,
-				this.speed.y,
-				this.acceleration.x,
-				this.acceleration.y
-			);
 			this.x += this.speed.x * delta;
 			this.y += this.speed.y * delta;
 
@@ -37,6 +31,55 @@ export class Spacecraft extends PIXI.Sprite {
 			if (this.speed.y < 450 && this.speed.y > -450)
 				this.speed.y += this.acceleration.y * delta;
 		};
+
+		this.checkBorder = () => {
+			if (this.x <= 0) this.speed.x = 100;
+			if (this.x + this.width >= window.innerWidth) this.speed.x = -100;
+			if (this.y <= 0) this.speed.y = 100;
+			if (this.y + this.height >= window.innerHeight) this.speed.y = -100;
+		};
+
+		window.addEventListener("keydown", (event) => {
+			switch (event.key) {
+				case "w":
+				case "ArrowUp":
+					this.acceleration.y = -4500;
+					break;
+				case "a":
+				case "ArrowLeft":
+					this.acceleration.x = -4500;
+					break;
+				case "s":
+				case "ArrowDown":
+					this.acceleration.y = 4500;
+					break;
+				case "d":
+				case "ArrowRight":
+					this.acceleration.x = 4500;
+					break;
+			}
+		});
+
+		window.addEventListener("keyup", (event) => {
+			switch (event.key) {
+				case "w":
+				case "ArrowUp":
+					this.acceleration.y = 0;
+					break;
+				case "a":
+				case "ArrowLeft":
+					this.acceleration.x = 0;
+					break;
+				case "s":
+				case "ArrowDown":
+					this.acceleration.y = 0;
+					break;
+				case "d":
+				case "ArrowRight":
+					this.acceleration.x = 0;
+					break;
+			}
+		});
 	}
 }
 
@@ -45,45 +88,3 @@ export const spacecraft = new Spacecraft(
 	"light-blue",
 	window.innerHeight / 3200
 );
-
-window.addEventListener("keydown", (event) => {
-	switch (event.key) {
-		case "w":
-		case "ArrowUp":
-			spacecraft.acceleration.y = -4500;
-			break;
-		case "a":
-		case "ArrowLeft":
-			spacecraft.acceleration.x = -4500;
-			break;
-		case "s":
-		case "ArrowDown":
-			spacecraft.acceleration.y = 4500;
-			break;
-		case "d":
-		case "ArrowRight":
-			spacecraft.acceleration.x = 4500;
-			break;
-	}
-});
-
-window.addEventListener("keyup", (event) => {
-	switch (event.key) {
-		case "w":
-		case "ArrowUp":
-			spacecraft.acceleration.y = 0;
-			break;
-		case "a":
-		case "ArrowLeft":
-			spacecraft.acceleration.x = 0;
-			break;
-		case "s":
-		case "ArrowDown":
-			spacecraft.acceleration.y = 0;
-			break;
-		case "d":
-		case "ArrowRight":
-			spacecraft.acceleration.x = 0;
-			break;
-	}
-});
