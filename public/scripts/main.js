@@ -1,6 +1,6 @@
-// import PIXI from "pixi.js";
 import { layers } from "./parallax.js";
 import { spacecraft } from "./spacecraft.js";
+import { meteroids } from "./meteroid.js";
 
 const app = new PIXI.Application({
 	width: window.innerWidth,
@@ -9,9 +9,10 @@ const app = new PIXI.Application({
 	backgroundColor: 0x000000
 });
 
-// Add actors an the background
+// Add actors and the background
 layers.forEach((layer) => app.stage.addChild(layer));
 app.stage.addChild(spacecraft);
+meteroids.forEach((m) => app.stage.addChild(m));
 
 // game loop
 app.ticker.add(async () => {
@@ -22,6 +23,10 @@ app.ticker.add(async () => {
 	});
 	spacecraft.move(app.ticker.deltaMS / 1000);
 	spacecraft.checkBorder();
+	meteroids.forEach((m) => {
+		m.move(app.ticker.deltaMS / 1000);
+		m.resetPosition();
+	});
 });
 
 app.renderer.view.style.position = "absolute";
