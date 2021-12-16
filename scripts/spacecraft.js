@@ -8,7 +8,7 @@ const acceleration = 4500;
 class Spacecraft extends PIXI.Sprite {
 	constructor(type, color, scale) {
 		super(
-			PIXI.Texture.from(`/public/graphics/spacecrafts/${type}-${color}.svg`, {
+			PIXI.Texture.from(`graphics/spacecrafts/${type}-${color}.svg`, {
 				resourceOptions: { scale: scale }
 			})
 		);

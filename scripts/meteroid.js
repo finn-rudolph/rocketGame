@@ -9,7 +9,7 @@ class Meteroid extends PIXI.Sprite {
 	constructor(scale) {
 		super(
 			PIXI.Texture.from(
-				`/public/graphics/meteroids/meteroid${Math.floor(
+				`graphics/meteroids/meteroid${Math.floor(
 					Math.random() * imagesAmount
 				)}.svg`,
 				{ resourceOptions: { scale: scale } }

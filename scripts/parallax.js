@@ -4,14 +4,11 @@ class ParallaxLayer extends PIXI.Container {
 		this.height = window.innerHeight;
 		this.width = window.innerWidth;
 
-		this.textures = new Array(imagesAmount)
-			.fill(0)
-			.map((_v, i) =>
-				PIXI.Texture.from(
-					`/public/graphics/${objectType}s/${objectType}${i}.svg`,
-					{ resourceOptions: { scale: scale } }
-				)
-			);
+		this.textures = new Array(imagesAmount).fill(0).map((_v, i) =>
+			PIXI.Texture.from(`graphics/${objectType}s/${objectType}${i}.svg`, {
+				resourceOptions: { scale: scale }
+			})
+		);
 		this.move = (delta) =>
 			this.children.forEach((child) => {
 				child.x -= speed * delta;
