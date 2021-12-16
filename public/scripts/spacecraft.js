@@ -1,5 +1,11 @@
-// import { Sprite } from "@pixi/sprite";
-export class Spacecraft extends PIXI.Sprite {
+// configuration
+
+const maxSpeed = 450;
+const slowdown = 300;
+const bounceSpeed = 100;
+const acceleration = 4500;
+
+class Spacecraft extends PIXI.Sprite {
 	constructor(type, color, scale) {
 		super(
 			PIXI.Texture.from(`/public/graphics/spacecrafts/${type}-${color}.svg`, {
@@ -21,41 +27,47 @@ export class Spacecraft extends PIXI.Sprite {
 			this.x += this.speed.x * delta;
 			this.y += this.speed.y * delta;
 
-			if (this.speed.x > 0) this.speed.x -= 300 * delta;
-			if (this.speed.x < 0) this.speed.x += 300 * delta;
-			if (this.speed.y > 0) this.speed.y -= 300 * delta;
-			if (this.speed.y < 0) this.speed.y += 300 * delta;
+			if (this.speed.x > 0) this.speed.x -= slowdown * delta;
+			if (this.speed.x < 0) this.speed.x += slowdown * delta;
+			if (this.speed.y > 0) this.speed.y -= slowdown * delta;
+			if (this.speed.y < 0) this.speed.y += slowdown * delta;
 
-			if (this.speed.x < 450 && this.speed.x > -450)
+			if (this.speed.x < maxSpeed && this.speed.x > -maxSpeed)
 				this.speed.x += this.acceleration.x * delta;
-			if (this.speed.y < 450 && this.speed.y > -450)
+			if (this.speed.y < maxSpeed && this.speed.y > -maxSpeed)
 				this.speed.y += this.acceleration.y * delta;
 		};
 
 		this.checkBorder = () => {
-			if (this.x <= 0) this.speed.x = 100;
-			if (this.x + this.width >= window.innerWidth) this.speed.x = -100;
-			if (this.y <= 0) this.speed.y = 100;
-			if (this.y + this.height >= window.innerHeight) this.speed.y = -100;
+			if (this.x <= 0) this.speed.x = bounceSpeed;
+			if (this.x + this.width >= window.innerWidth) this.speed.x = -bounceSpeed;
+			if (this.y <= 0) this.speed.y = bounceSpeed;
+			if (this.y + this.height >= window.innerHeight)
+				this.speed.y = -bounceSpeed;
 		};
+
+		this.getSize = (angle) =>
+			Math.abs(
+				this.height / 2 + (this.width / 2 - this.height / 2) * Math.cos(angle)
+			);
 
 		window.addEventListener("keydown", (event) => {
 			switch (event.key) {
 				case "w":
 				case "ArrowUp":
-					this.acceleration.y = -4500;
+					this.acceleration.y = -acceleration;
 					break;
 				case "a":
 				case "ArrowLeft":
-					this.acceleration.x = -4500;
+					this.acceleration.x = -acceleration;
 					break;
 				case "s":
 				case "ArrowDown":
-					this.acceleration.y = 4500;
+					this.acceleration.y = acceleration;
 					break;
 				case "d":
 				case "ArrowRight":
-					this.acceleration.x = 4500;
+					this.acceleration.x = acceleration;
 					break;
 			}
 		});
@@ -86,5 +98,5 @@ export class Spacecraft extends PIXI.Sprite {
 export const spacecraft = new Spacecraft(
 	"alkaid",
 	"light-blue",
-	window.innerHeight / 3200
+	window.innerHeight / 5100
 );

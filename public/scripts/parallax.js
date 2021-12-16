@@ -1,6 +1,4 @@
-// import { Container } from "@pixi/display";
-
-export class ParallaxLayer extends PIXI.Container {
+class ParallaxLayer extends PIXI.Container {
 	constructor(speed, scale, objectType, imagesAmount, averageDisplayedObjects) {
 		super();
 		this.height = window.innerHeight;
