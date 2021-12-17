@@ -2,6 +2,8 @@ import { layers } from "./parallax.js";
 import { spacecraft } from "./spacecraft.js";
 import { meteroids, checkCollision } from "./meteroid.js";
 
+const actors = [spacecraft, ...meteroids];
+
 const app = new PIXI.Application({
 	width: window.innerWidth,
 	height: window.innerHeight,
@@ -27,9 +29,11 @@ app.ticker.add(async () => {
 		m.move(app.ticker.deltaMS / 1000);
 		m.resetPosition();
 	});
-	[spacecraft, ...meteroids].forEach((o) =>
-		checkCollision(o, [spacecraft, ...meteroids])
-	);
+	actors.forEach((o1, index) => {
+		for (let i = index + 1; i < actors.length; i++) {
+			checkCollision(o1, actors[i]);
+		}
+	});
 });
 
 app.renderer.view.style.position = "absolute";

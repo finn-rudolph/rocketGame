@@ -29,6 +29,7 @@ class Meteroid extends PIXI.Sprite {
 		this.resetPosition = () => {
 			if (
 				this.x <= -this.width ||
+				this.x >= window.innerWidth * 1.5 ||
 				this.y <= -this.height ||
 				this.y >= window.innerHeight
 			) {
@@ -47,29 +48,25 @@ export const meteroids = new Array(meteroidsAmount)
 	.fill(0)
 	.map(() => new Meteroid(window.innerHeight / 10000));
 
-export const checkCollision = (current, objects) => {
-	objects.forEach((o) => {
-		if (current !== o) {
-			const dx =
-				current.x < o.x
-					? o.x - o.width / 2 - (current.x + current.width / 2)
-					: current.x - current.width / 2 - (o.x + o.width / 2);
+export const checkCollision = (o1, o2) => {
+	const dx =
+		o1.x < o2.x
+			? o2.x - o2.width / 2 - (o1.x + o1.width / 2)
+			: o1.x - o1.width / 2 - (o2.x + o2.width / 2);
 
-			const dy =
-				current.y < o.y
-					? o.y - o.height / 2 - (current.y + current.height / 2)
-					: current.y - current.height / 2 - (o.y + o.height / 2);
+	const dy =
+		o1.y < o2.y
+			? o2.y - o2.height / 2 - (o1.y + o1.height / 2)
+			: o1.y - o1.height / 2 - (o2.y + o2.height / 2);
 
-			if (dx < 0 && dy < 0) {
-				const prevSpeedX = current.speed.x;
-				const prevSpeedY = current.speed.y;
+	if (dx < 0 && dy < 0) {
+		const prevSpeedX = o1.speed.x;
+		const prevSpeedY = o1.speed.y;
 
-				current.speed.x = o.speed.x;
-				o.speed.x = prevSpeedX;
+		o1.speed.x = o2.speed.x;
+		o2.speed.x = prevSpeedX;
 
-				current.speed.y = o.speed.y;
-				o.speed.y = prevSpeedY;
-			}
-		}
-	});
+		o1.speed.y = o2.speed.y;
+		o2.speed.y = prevSpeedY;
+	}
 };
