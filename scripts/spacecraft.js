@@ -4,8 +4,9 @@ const maxSpeed = 450;
 const slowdown = 750;
 const bounceSpeed = 100;
 const acceleration = 3500;
+const life = 3;
 
-class Spacecraft extends PIXI.Sprite {
+export class Spacecraft extends PIXI.Sprite {
 	constructor(type, color, scale) {
 		super(
 			PIXI.Texture.from(`graphics/spacecrafts/${type}-${color}.svg`, {
@@ -22,6 +23,8 @@ class Spacecraft extends PIXI.Sprite {
 			x: 0,
 			y: 0
 		};
+		// Life is life, na na na nana
+		this.life = life;
 
 		this.move = (delta) => {
 			this.x += this.speed.x * delta;

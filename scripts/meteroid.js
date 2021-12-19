@@ -1,3 +1,5 @@
+import { Spacecraft } from "./spacecraft.js";
+
 // configuration
 
 const meteroidsAmount = 8;
@@ -69,5 +71,7 @@ export const checkCollision = (o1, o2) => {
 
 		o1.speed.y = o2.speed.y;
 		o2.speed.y = prevSpeedY;
+
+		if (o1 instanceof Spacecraft) o1.life -= 1;
 	}
 };

@@ -2,6 +2,8 @@ import { layers } from "./parallax.js";
 import { spacecraft } from "./spacecraft.js";
 import { meteroids, checkCollision } from "./meteroid.js";
 
+const lifeIndicator = document.getElementById("lifeIndicator");
+
 const actors = [spacecraft, ...meteroids];
 
 export const app = new PIXI.Application({
@@ -24,6 +26,7 @@ export const gameLoop = async () => {
 	});
 	spacecraft.move(app.ticker.deltaMS / 1000);
 	spacecraft.checkBorder();
+	lifeIndicator.textContent = "🧡".repeat(spacecraft.life);
 	meteroids.forEach((m) => {
 		m.move(app.ticker.deltaMS / 1000);
 		m.resetPosition();
