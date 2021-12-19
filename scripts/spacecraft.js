@@ -1,9 +1,9 @@
 // configuration
 
 const maxSpeed = 450;
-const slowdown = 300;
+const slowdown = 750;
 const bounceSpeed = 100;
-const acceleration = 4500;
+const acceleration = 3500;
 
 class Spacecraft extends PIXI.Sprite {
 	constructor(type, color, scale) {

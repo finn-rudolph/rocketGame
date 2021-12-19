@@ -4,9 +4,10 @@ const meteroidsAmount = 8;
 const imagesAmount = 12;
 const maxSpeed = { x: -300, y: 30 };
 const minSpeed = { x: -50, y: -30 };
+const scale = window.innerHeight / 8500;
 
 class Meteroid extends PIXI.Sprite {
-	constructor(scale) {
+	constructor() {
 		super(
 			PIXI.Texture.from(
 				`graphics/meteroids/meteroid${Math.floor(
@@ -46,7 +47,7 @@ class Meteroid extends PIXI.Sprite {
 
 export const meteroids = new Array(meteroidsAmount)
 	.fill(0)
-	.map(() => new Meteroid(window.innerHeight / 10000));
+	.map(() => new Meteroid());
 
 export const checkCollision = (o1, o2) => {
 	const dx =
