@@ -4,7 +4,7 @@ import { meteroids, checkCollision } from "./meteroid.js";
 
 const actors = [spacecraft, ...meteroids];
 
-const app = new PIXI.Application({
+export const app = new PIXI.Application({
 	width: window.innerWidth,
 	height: window.innerHeight,
 	antialias: true,
@@ -16,8 +16,7 @@ layers.forEach((layer) => app.stage.addChild(layer));
 app.stage.addChild(spacecraft);
 meteroids.forEach((m) => app.stage.addChild(m));
 
-// game loop
-app.ticker.add(async () => {
+export const gameLoop = async () => {
 	layers.forEach((layer) => {
 		layer.generate(app.ticker.deltaMS / 1000);
 		layer.removeInvisible();
@@ -34,7 +33,7 @@ app.ticker.add(async () => {
 			checkCollision(o1, actors[i]);
 		}
 	});
-});
+};
 
 app.renderer.view.style.position = "absolute";
 document.body.appendChild(app.view);
