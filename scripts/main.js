@@ -1,6 +1,7 @@
 import { layers } from "./parallax.js";
 import { spacecraft } from "./spacecraft.js";
-import { meteroids, checkCollision } from "./meteroid.js";
+import { meteroids } from "./meteroid.js";
+import { checkCollision } from "./interaction.js";
 
 const lifeIndicator = document.getElementById("lifeIndicator");
 
