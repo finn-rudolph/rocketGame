@@ -2,8 +2,10 @@ import { layers } from "./parallax.js";
 import { spacecraft } from "./spacecraft.js";
 import { meteroids } from "./meteroid.js";
 import { checkCollision } from "./interaction.js";
+import { startGame, stopGame } from "./start-stop.js";
 
 const lifeIndicator = document.getElementById("lifeIndicator");
+export const play = document.getElementById("play");
 
 const actors = [spacecraft, ...meteroids];
 
@@ -28,6 +30,7 @@ export const gameLoop = async () => {
 	spacecraft.move(app.ticker.deltaMS / 1000);
 	spacecraft.checkBorder();
 	lifeIndicator.textContent = "🧡".repeat(spacecraft.life);
+	if (spacecraft.life === 0) stopGame();
 	meteroids.forEach((m) => {
 		m.move(app.ticker.deltaMS / 1000);
 		m.resetPosition();
@@ -48,3 +51,5 @@ window.addEventListener("resize", () => {
 		document.documentElement.clientHeight
 	);
 });
+
+play.addEventListener("click", startGame);

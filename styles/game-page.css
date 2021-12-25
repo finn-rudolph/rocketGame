@@ -10,14 +10,16 @@ body {
 	padding: inherit;
 }
 
+/* TODO make play button size 
+dependent only on screen size */
+
 #play {
-	color: #ccc;
+	color: #fff;
 	font-size: 4rem;
 	background-color: transparent;
 	border: none;
 	width: 8rem;
 	height: 8rem;
-
 	position: fixed;
 	top: calc(50vh - 4rem);
 	left: calc(50vw - 4rem);
