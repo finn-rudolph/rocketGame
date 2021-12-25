@@ -1,13 +1,5 @@
-// configuration
-
-const meteroidsAmount = 8;
-const imagesAmount = 12;
-const maxSpeed = { x: -300, y: 30 };
-const minSpeed = { x: -50, y: -30 };
-const scale = window.innerHeight / 8500;
-
 class Meteroid extends PIXI.Sprite {
-	constructor() {
+	constructor(maxSpeed, minSpeed, scale, imagesAmount) {
 		super(
 			PIXI.Texture.from(
 				`graphics/meteroids/meteroid${Math.floor(
@@ -45,6 +37,14 @@ class Meteroid extends PIXI.Sprite {
 	}
 }
 
-export const meteroids = new Array(meteroidsAmount)
+export const meteroids = new Array(8)
 	.fill(0)
-	.map(() => new Meteroid());
+	.map(
+		() =>
+			new Meteroid(
+				{ x: -300, y: 30 },
+				{ x: -50, y: -30 },
+				window.innerHeight / 8500,
+				12
+			)
+	);

@@ -1,13 +1,14 @@
-// configuration
-
-const maxSpeed = 450;
-const slowdown = 750;
-const bounceSpeed = 100;
-const acceleration = 3500;
-const life = 3;
-
 export class Spacecraft extends PIXI.Sprite {
-	constructor(type, color, scale) {
+	constructor(
+		type,
+		color,
+		scale,
+		life,
+		maxSpeed,
+		acceleration,
+		slowdown,
+		bounceSpeed
+	) {
 		super(
 			PIXI.Texture.from(`graphics/spacecrafts/${type}-${color}.svg`, {
 				resourceOptions: { scale: scale }
@@ -101,5 +102,10 @@ export class Spacecraft extends PIXI.Sprite {
 export const spacecraft = new Spacecraft(
 	"alkaid",
 	"light-blue",
-	window.innerHeight / 5100
+	window.innerHeight / 5100,
+	3,
+	450,
+	3500,
+	750,
+	100
 );
