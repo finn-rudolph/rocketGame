@@ -3,6 +3,7 @@ import { spacecraft } from "./spacecraft.js";
 import { meteroids } from "./meteroid.js";
 import { checkCollision } from "./interaction.js";
 import { startGame, stopGame } from "./start-stop.js";
+import { scoreDisplay } from "./score-display.js";
 
 const lifeIndicator = document.getElementById("lifeIndicator");
 export const play = document.getElementById("play");
@@ -20,6 +21,7 @@ export const app = new PIXI.Application({
 layers.forEach((layer) => app.stage.addChild(layer));
 app.stage.addChild(spacecraft);
 meteroids.forEach((m) => app.stage.addChild(m));
+app.stage.addChild(scoreDisplay);
 
 export const gameLoop = async () => {
 	layers.forEach((layer) => {
@@ -40,6 +42,8 @@ export const gameLoop = async () => {
 			checkCollision(o1, actors[i]);
 		}
 	});
+	scoreDisplay.score += 0.2;
+	scoreDisplay.updateScore();
 };
 
 app.renderer.view.style.position = "absolute";
