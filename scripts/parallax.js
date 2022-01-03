@@ -37,3 +37,14 @@ export const layers = [
 	new ParallaxLayer(60, 1, "star", 4, 25),
 	new ParallaxLayer(80, 0.05, "space-object", 24, 10)
 ];
+
+import("./main.js").then(({ app }) => {
+	layers.forEach((layer) => app.stage.addChild(layer));
+	app.ticker.add(() => {
+		layers.forEach((layer) => {
+			layer.generate(app.ticker.deltaMS / 1000);
+			layer.removeInvisible();
+			layer.move(app.ticker.deltaMS / 1000);
+		});
+	});
+});

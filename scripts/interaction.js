@@ -1,4 +1,5 @@
-import { Spacecraft } from "./spacecraft.js";
+import { spacecraft, Spacecraft } from "./spacecraft.js";
+import { meteroids } from "./meteroid.js";
 
 export const checkCollision = (o1, o2) => {
 	const dx =
@@ -21,6 +22,18 @@ export const checkCollision = (o1, o2) => {
 		o1.speed.y = o2.speed.y;
 		o2.speed.y = prevSpeedY;
 
-		if (o1 instanceof Spacecraft) o1.life -= 1;
+		if (o1 instanceof Spacecraft) o1.life--;
 	}
 };
+
+const actors = [spacecraft, ...meteroids];
+
+import("./main.js").then(({ app }) => {
+	app.ticker.add(() => {
+		actors.forEach((o1, index) => {
+			for (let i = index + 1; i < actors.length; i++) {
+				checkCollision(o1, actors[i]);
+			}
+		});
+	});
+});

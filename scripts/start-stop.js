@@ -1,24 +1,17 @@
-import { app, gameLoop, play } from "./main.js";
+import { app } from "./main.js";
 import { meteroids } from "./meteroid.js";
 import { spacecraft } from "./spacecraft.js";
 import { scoreDisplay } from "./score-display.js";
 
-export const startGame = () => {
-	scoreDisplay.score = 0;
-	app.ticker.add(gameLoop);
+const play = document.createElement("button");
+play.textContent = "↺";
+play.id = "play";
+
+export const resetGame = () => {
+	app.ticker.start();
 	play.remove();
-	if (play.textContent === "↺") resetActors();
-};
 
-export const stopGame = () => {
-	app.ticker.remove(gameLoop);
-	document.body.appendChild(play);
-	play.textContent = "↺";
-	scoreDisplay.updateHighscore();
-};
-
-const resetActors = () => {
-	console.log("lel");
+	scoreDisplay.score = 0;
 	spacecraft.x = window.innerWidth * 0.1;
 	spacecraft.y = window.innerHeight * 0.45;
 	spacecraft.life = 3;
@@ -27,4 +20,11 @@ const resetActors = () => {
 		m.x = window.innerWidth;
 		m.y = Math.random() * window.innerHeight;
 	});
+};
+play.addEventListener("click", resetGame);
+
+export const stopGame = () => {
+	app.ticker.stop();
+	document.body.appendChild(play);
+	scoreDisplay.updateHighscore();
 };

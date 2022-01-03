@@ -48,3 +48,13 @@ export const meteroids = new Array(8)
 				12
 			)
 	);
+
+import("./main.js").then(({ app }) => {
+	meteroids.forEach((m) => app.stage.addChild(m));
+	app.ticker.add(() => {
+		meteroids.forEach((m) => {
+			m.move(app.ticker.deltaMS / 1000);
+			m.resetPosition();
+		});
+	});
+});

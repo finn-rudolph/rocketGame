@@ -1,3 +1,5 @@
+import { stopGame } from "./start-stop.js";
+
 export class Spacecraft extends PIXI.Sprite {
 	constructor(
 		type,
@@ -109,3 +111,15 @@ export const spacecraft = new Spacecraft(
 	750,
 	100
 );
+
+const lifeIndicator = document.getElementById("lifeIndicator");
+
+import("./main.js").then(({ app }) => {
+	app.stage.addChild(spacecraft);
+	app.ticker.add(() => {
+		spacecraft.move(app.ticker.deltaMS / 1000);
+		spacecraft.checkBorder();
+		lifeIndicator.textContent = "🧡".repeat(spacecraft.life);
+		if (spacecraft.life === 0) stopGame();
+	});
+});
