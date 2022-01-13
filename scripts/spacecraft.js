@@ -57,6 +57,29 @@ export class Spacecraft extends PIXI.Sprite {
 				this.height / 2 + (this.width / 2 - this.height / 2) * Math.cos(angle)
 			);
 
+		this.decrementLife = () => {
+			this.life -= 1;
+			if (this.life <= 0) {
+				this.addChild(this.explosion);
+				this.explosion.play();
+			}
+		};
+
+		// Setup explosion
+		PIXI.Loader.shared
+			.add("graphics/animations/explosions/explosion1.json")
+			.load(() => {
+				const sheet =
+					PIXI.Loader.shared.resources[
+						"graphics/animations/explosions/explosion1.json"
+					].spritesheet;
+				this.explosion = new PIXI.AnimatedSprite(
+					sheet.animations["explosion-1"]
+				);
+				this.explosion.loop = false;
+				this.explosion.animationSpeed = 0.2;
+			});
+
 		window.addEventListener("keydown", (event) => {
 			switch (event.key) {
 				case "w":

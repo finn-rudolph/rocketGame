@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="460" height="460" viewBox="0 0 460 460">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-explosion-1_1);
+      }
+
+      .cls-2 {
+        fill: #f8b700;
+        opacity: 0.4;
+      }
+
+      .cls-3 {
+        fill: #ffdf05;
+      }
+    </style>
+    <clipPath id="clip-explosion-1_1">
+      <rect width="460" height="460"/>
+    </clipPath>
+  </defs>
+  <g id="explosion-1_1" class="cls-1">
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" class="cls-2" cx="70" cy="71" rx="70" ry="71" transform="translate(160.518 117)"/>
+    <path id="Pfad_1" data-name="Pfad 1" class="cls-3" d="M954.832,1905.781c7.8-8.695,18.861-31.065,18.861-31.065s-8.46,19.832-9.985,31.065,3.883,13.868,3.883,13.868l28.741,18.666s-36.878-6.528-37.7,2.18,1.8,31.945,1.8,31.945-9.062-18.455-14.41-25.9-6.984-3.89-40.667,3.625c.088,0,17.747-9.835,25.284-18.123s8.764-6.45,3.372-14.849-24.943-18.745-24.943-18.745l33.417,11.051S947.032,1914.476,954.832,1905.781Z" transform="translate(-715.482 -1735)"/>
+  </g>
+</svg>

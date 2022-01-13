@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="460" height="460" viewBox="0 0 460 460">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-explosion-1_12);
+      }
+    </style>
+    <clipPath id="clip-explosion-1_12">
+      <rect width="460" height="460"/>
+    </clipPath>
+  </defs>
+  <g id="explosion-1_12" class="cls-1"/>
+</svg>
