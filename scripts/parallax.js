@@ -38,13 +38,13 @@ export const layers = [
 	new ParallaxLayer(80, 0.05, "space-object", 24, 10)
 ];
 
-import("./main.js").then(({ app }) => {
+import("./main.js").then(({ app, gameLoop }) => {
 	layers.forEach((layer) => app.stage.addChild(layer));
-	app.ticker.add(() => {
+	gameLoop.add(() => {
 		layers.forEach((layer) => {
-			layer.generate(app.ticker.deltaMS / 1000);
+			layer.generate(gameLoop.deltaMS / 1000);
 			layer.removeInvisible();
-			layer.move(app.ticker.deltaMS / 1000);
+			layer.move(gameLoop.deltaMS / 1000);
 		});
 	});
 });

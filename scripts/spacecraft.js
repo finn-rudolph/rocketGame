@@ -59,9 +59,11 @@ export class Spacecraft extends PIXI.Sprite {
 
 		this.decrementLife = () => {
 			this.life -= 1;
+			lifeIndicator.textContent = "🧡".repeat(spacecraft.life);
 			if (this.life <= 0) {
-				this.addChild(this.explosion);
 				this.explosion.play();
+				this.addChild(this.explosion);
+				stopGame();
 			}
 		};
 
@@ -137,12 +139,10 @@ export const spacecraft = new Spacecraft(
 
 const lifeIndicator = document.getElementById("lifeIndicator");
 
-import("./main.js").then(({ app }) => {
+import("./main.js").then(({ app, gameLoop }) => {
 	app.stage.addChild(spacecraft);
-	app.ticker.add(() => {
-		spacecraft.move(app.ticker.deltaMS / 1000);
+	gameLoop.add(() => {
+		spacecraft.move(gameLoop.deltaMS / 1000);
 		spacecraft.checkBorder();
-		lifeIndicator.textContent = "🧡".repeat(spacecraft.life);
-		if (spacecraft.life === 0) stopGame();
 	});
 });

@@ -49,11 +49,11 @@ export const meteroids = new Array(8)
 			)
 	);
 
-import("./main.js").then(({ app }) => {
+import("./main.js").then(({ gameLoop, app }) => {
 	meteroids.forEach((m) => app.stage.addChild(m));
-	app.ticker.add(() => {
+	gameLoop.add(() => {
 		meteroids.forEach((m) => {
-			m.move(app.ticker.deltaMS / 1000);
+			m.move(gameLoop.deltaMS / 1000);
 			m.resetPosition();
 		});
 	});

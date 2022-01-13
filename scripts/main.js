@@ -5,6 +5,8 @@ export const app = new PIXI.Application({
 	backgroundColor: 0x000000
 });
 
+export const gameLoop = new PIXI.Ticker();
+
 app.renderer.view.style.position = "absolute";
 document.body.appendChild(app.view);
 

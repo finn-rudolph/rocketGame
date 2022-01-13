@@ -40,9 +40,9 @@ export const scoreDisplay = new ScoreDisplay(
 	0.03 * window.innerHeight
 );
 
-import("./main.js").then(({ app }) => {
+import("./main.js").then(({ app, gameLoop }) => {
 	app.stage.addChild(scoreDisplay);
-	app.ticker.add(() => {
+	gameLoop.add(() => {
 		scoreDisplay.score += 0.2;
 		scoreDisplay.updateScore();
 	});

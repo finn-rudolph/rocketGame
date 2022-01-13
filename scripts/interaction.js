@@ -28,8 +28,8 @@ export const checkCollision = (o1, o2) => {
 
 const actors = [spacecraft, ...meteroids];
 
-import("./main.js").then(({ app }) => {
-	app.ticker.add(() => {
+import("./main.js").then(({ gameLoop }) => {
+	gameLoop.add(() => {
 		actors.forEach((o1, index) => {
 			for (let i = index + 1; i < actors.length; i++) {
 				checkCollision(o1, actors[i]);
