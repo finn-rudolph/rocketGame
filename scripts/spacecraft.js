@@ -1,5 +1,5 @@
 import { stopGame } from "./start-stop.js";
-
+import { app, lifeIndicator } from "./main.js";
 export class Spacecraft extends PIXI.Sprite {
 	constructor(
 		type,
@@ -59,11 +59,14 @@ export class Spacecraft extends PIXI.Sprite {
 
 		this.decrementLife = () => {
 			this.life -= 1;
-			lifeIndicator.textContent = "🧡".repeat(spacecraft.life);
+			lifeIndicator.textContent = "🧡".repeat(this.life);
 			if (this.life <= 0) {
-				this.explosion.play();
-				this.addChild(this.explosion);
+				app.stage.addChild(this.explosion);
+				this.explosion.gotoAndPlay(0);
+				this.visible = false;
 				stopGame();
+				this.explosion.x = this.x - 0.3 * this.explosion.width;
+				this.explosion.y = this.y - 0.4 * this.explosion.height;
 			}
 		};
 
@@ -80,6 +83,8 @@ export class Spacecraft extends PIXI.Sprite {
 				);
 				this.explosion.loop = false;
 				this.explosion.animationSpeed = 0.2;
+				this.explosion.width = this.width * 2;
+				this.explosion.height = this.width * 2;
 			});
 
 		window.addEventListener("keydown", (event) => {
@@ -136,8 +141,6 @@ export const spacecraft = new Spacecraft(
 	750,
 	100
 );
-
-const lifeIndicator = document.getElementById("lifeIndicator");
 
 import("./main.js").then(({ app, gameLoop }) => {
 	app.stage.addChild(spacecraft);

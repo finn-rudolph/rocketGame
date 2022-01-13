@@ -6,6 +6,7 @@ export const app = new PIXI.Application({
 });
 
 export const gameLoop = new PIXI.Ticker();
+export const lifeIndicator = document.querySelector("#lifeIndicator");
 
 app.renderer.view.style.position = "absolute";
 document.body.appendChild(app.view);
