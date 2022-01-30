@@ -1,28 +1,40 @@
 import { spacecraft, Spacecraft } from "./spacecraft.js";
 import { meteroids } from "./meteroid.js";
 
-export const checkCollision = (o1, o2) => {
-	const dx =
-		o1.x < o2.x
-			? o2.x - o2.width / 2 - (o1.x + o1.width / 2)
-			: o1.x - o1.width / 2 - (o2.x + o2.width / 2);
+const sweepAndPrune = (actors) => {
+	for (let i = 0; i < actors.length; i++) {
+		const a = actors[i];
+		for (let j = i + 1; j < actors.length; j++) {
+			const b = actors[j];
+			if (a.x + a.width >= b.x) {
+				if (a.y + a.height >= b.y && a.y <= b.y + b.height) {
+					const tmpX = a.speed.x;
+					const tmpY = a.speed.y;
 
-	const dy =
-		o1.y < o2.y
-			? o2.y - o2.height / 2 - (o1.y + o1.height / 2)
-			: o1.y - o1.height / 2 - (o2.y + o2.height / 2);
+					a.speed.x = b.speed.x;
+					b.speed.x = tmpX;
 
-	if (dx < 0 && dy < 0) {
-		const prevSpeedX = o1.speed.x;
-		const prevSpeedY = o1.speed.y;
+					a.speed.y = b.speed.y;
+					b.speed.y = tmpY;
+					if (a instanceof Spacecraft) a.decrementLife();
+					else if (b instanceof Spacecraft) b.decrementLife();
+				}
+			} else {
+				break;
+			}
+		}
+	}
+};
 
-		o1.speed.x = o2.speed.x;
-		o2.speed.x = prevSpeedX;
-
-		o1.speed.y = o2.speed.y;
-		o2.speed.y = prevSpeedY;
-
-		if (o1 instanceof Spacecraft) o1.decrementLife();
+const insertionSort = (array) => {
+	for (let i = 1; i < array.length; i++) {
+		let j = i;
+		while (j > 0 && array[j - 1].x > array[j].x) {
+			let tmp = array[j - 1];
+			array[j - 1] = array[j];
+			array[j] = tmp;
+			j--;
+		}
 	}
 };
 
@@ -30,10 +42,7 @@ const actors = [spacecraft, ...meteroids];
 
 import("./main.js").then(({ gameLoop }) => {
 	gameLoop.add(() => {
-		actors.forEach((o1, index) => {
-			for (let i = index + 1; i < actors.length; i++) {
-				checkCollision(o1, actors[i]);
-			}
-		});
+		insertionSort(actors);
+		sweepAndPrune(actors);
 	});
 });
